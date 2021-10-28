@@ -1,6 +1,18 @@
 .secondary {
-    display: inline-block;
+    display: inline;
     width: 100%;
     height: 20px;
-
 }
+
+.heroImage {
+    height: 500 px;
+    width: 500px;
+    position: relative;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+}
+
+
