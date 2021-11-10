@@ -1,18 +1,23 @@
-.secondary {
-    display: inline;
-    width: 100%;
-    height: 20px;
+
+.card-bg{
+    background-color: black;
 }
-
-.heroImage {
-    height: 500 px;
-    width: 500px;
-    position: relative;
+.card img{
+    
+    border-radius: 0 0 0 50px;
+    -webkit-border-radius: 0 0 0 50px;
+    -moz-border-radius: 0 0 0 50px;
+    -ms-border-radius: 0 0 0 50px;
+    -o-border-radius: 0 0 0 50px;
 }
-
-.card {
-    width: 500px;
-    height: 500px;
+.card-body{
+    background-color: white;
+    border-radius: 0 50px 0 0;
+    -webkit-border-radius: 0 50px 0 0;
+    -moz-border-radius: 0 50px 0 0;
+    -ms-border-radius: 0 50px 0 0;
+    -o-border-radius: 0 50px 0 0;
 }
-
-
+.card-img{
+    background-color: white;
+}
